@@ -1,0 +1,517 @@
+@font-face{
+    font-family: font me;
+    src: url(font/sJoA3LZUhMSAPV_u0qwiAQ-O5X8.woff2);
+}
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: font me;
+}
+
+.hed {
+    width: 100%;
+    height: 150px;
+}
+
+.logo {
+    width: 25%;
+    height: 65%;
+    padding-left: 5%;
+}
+
+.logo2 {
+    width: 20%;
+    height: 65%;
+    float: right;
+}
+
+.img5 {
+    margin-top: 15%;
+    margin-left: 50%;
+    border-radius: 50px;
+    width: 10%;
+    height: 15%;
+    float: left;
+    background-image: url(img/twitter-black-removebg-preview.png);
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.img5:hover {
+    background-image: url(img/twitter_PNG29.png);
+    background-size: cover;
+    background-position: center center;
+    width: 10%;
+    height: 17%;
+}
+
+.img6 {
+    margin-top: 15%;
+    margin-left: 5%;
+    border-radius: 50px;
+    width: 8%;
+    height: 15%;
+    float: left;
+    background-image: url(img/1111-removebg-preview.png);
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.img6:hover {
+    background-image: url(img/download.png);
+    background-size: cover;
+    background-position: center center;
+    width: 12%;
+    height: 17%;
+}
+
+
+.menu {
+    float: left;
+    height: 35%;
+    width: 100%;
+    line-height: 30px;
+    background-color: #333333;
+
+}
+
+ul,
+li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 3px 20px;
+    margin-left: 20px;
+    border-left: 1px solid rgb(34, 30, 30);
+}
+
+.menu ul li a {
+    color: antiquewhite;
+}
+
+.menu ul li:hover a {
+    color: white;
+}
+
+.zerbin {
+    border-right: 1px solid rgb(34, 30, 30);
+    float: right;
+}
+
+.aks {
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(rgba(37, 37, 37, 0.534), rgba(29, 29, 29, 0.623)), url(img/urban-development-845x321.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.nev {
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    transform: translate(-115%, -0%);
+}
+
+.nev h2 {
+    color: #efbb20;
+}
+
+.project1 {
+    width: 100%;
+    height: 400px;
+}
+
+.project1a {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-image: url(img/4444.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.project1b {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.box1 {
+    width: 80%;
+    height: 100%;
+    margin-left: 9%;
+    margin-top: 20%;
+}
+
+.div1 {
+    width: 100%;
+    height: 100%;
+}
+
+.project1b .div1 samp {
+    color: #efbb20;
+}
+
+.project1b .div1 h2 {
+    color: #efbb20;
+}
+
+.div1 p {
+    color: gray;
+}
+
+.project2 {
+    width: 100%;
+    height: 400px;
+}
+
+.project2a {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.box2 {
+    width: 80%;
+    height: 100%;
+    margin-left: 9%;
+    margin-top: 20%;
+}
+
+.div2 {
+    width: 100%;
+    height: 100%;
+}
+
+.project2a .div2 samp {
+    color: #efbb20;
+}
+
+.project2a .div2 h2 {
+    color: #efbb20;
+}
+
+.div2 p {
+    color: gray;
+}
+
+.project2b {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-image: url(img/team-banner2-495x400.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.bekhsh {
+    width: 100%;
+    height: 150px;
+    background-color: #2c353d;
+}
+
+.joft {
+    width: 15%;
+    height: 70%;
+    margin-top: 3%;
+    margin-left: 9%;
+    float: left;
+    color: aliceblue;
+}
+
+.joft samp {
+    color: grey;
+}
+
+.project3 {
+    width: 100%;
+    height: 400px;
+}
+
+.project3a {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-image: url(img/urban-development-845x684.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.project3b {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.box3 {
+    width: 80%;
+    height: 100%;
+    margin-left: 9%;
+    margin-top: 20%;
+}
+
+.div3 {
+    width: 100%;
+    height: 100%;
+}
+
+.project3b .div3 samp {
+    color: #efbb20;
+}
+
+.project3b .div3 h2 {
+    color: #efbb20;
+}
+
+.div3 p {
+    color: gray;
+}
+
+.project4 {
+    width: 100%;
+    height: 400px;
+}
+
+.project4a {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.box4 {
+    width: 80%;
+    height: 100%;
+    margin-left: 9%;
+    margin-top: 20%;
+}
+
+.div4 {
+    width: 100%;
+    height: 100%;
+}
+.div4 p {
+    color: gray;
+}
+
+.project4a .div4 samp {
+    color: #efbb20;
+}
+
+.project4a .div4 h2 {
+    color: #efbb20;
+}
+
+.project4b {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-image: url(img/house-interior-1500x863.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.tozi {
+    width: 100%;
+    height: 355px;
+    background-color: #2c353d;
+}
+
+.boxi {
+    width: 100%;
+    height: 80%;
+    padding-top: 2%;
+    color: rgb(243, 234, 217);
+}
+
+
+.box40 {
+    width: 20%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-left: 6%;
+}
+
+.div40 {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.div40 a {
+    text-decoration: none;
+    color: rgb(243, 234, 217);
+}
+
+.img49 {
+    margin: 5%;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.div48 {
+    font-size: 70%;
+    margin-top: 20%;
+    margin-bottom: 5%;
+    text-align: justify;
+    float: left;
+}
+
+.div48 p {
+    float: left;
+    margin-top: 5%;
+}
+
+.div49 {
+    font-size: 70%;
+    margin-top: 20%;
+    margin-bottom: 5%;
+    text-align: justify;
+    float: left;
+}
+
+.div49 p {
+    float: left;
+    margin-top: 5%;
+}
+
+
+.box41 {
+    width: 20%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 3%;
+    margin-left: 2%;
+}
+
+.div41 {
+    width: 100%;
+    height: 100%;
+    float: left;
+
+}
+
+.box42 {
+    width: 20%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 3%;
+    margin-left: 2%;
+}
+
+.div42 {
+    width: 100%;
+    height: 100%;
+    float: left;
+
+}
+
+.box43 {
+    width: 20%;
+    height: 110%;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 3%;
+    margin-left: 2%;
+}
+
+.div43 {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.div43 a {
+    text-decoration: none;
+    color: rgb(243, 234, 217);
+}
+
+.img50 {
+    margin: 5%;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.div50 {
+    overflow: hidden;
+    margin-left: 8%;
+    text-align: justify;
+}
+
+.div51 {
+    overflow: hidden;
+    margin-left: 8%;
+    margin-bottom: 5%;
+    text-align: justify;
+}
+
+.div52 {
+    overflow: hidden;
+    margin-left: 8%;
+    margin-bottom: 5%;
+    text-align: justify;
+}
+
+
+.footer {
+    background-color: #5b646b;
+    float: left;
+    width: 100%;
+    padding: 0 240px;
+    height: 60px;
+}
+
+.footer1 {
+    float: left;
+    text-transform: uppercase;
+    color: white;
+    font-size: 10px;
+    height: 50%;
+    position: relative;
+    top: 50%;
+    left: -20%;
+}
+
+.menu10 {
+    width: 30%;
+    position: relative;
+    left: 90%;
+    top: -9%;
+}
+
+.menu10 ul,
+li {
+    list-style: none;
+    margin-left: 5%;
+}
+
+.menu10 a {
+    text-decoration: none;
+    font-size: 10px;
+    float: right;
+}
+
+.menu10 ul li {
+    display: inline-block;
+    margin-left: 4%;
+}
+
+.menu10 a {
+    color: white;
+}

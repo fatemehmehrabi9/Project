@@ -1,0 +1,1393 @@
+@font-face{
+    font-family: font me;
+    src: url(font/sJoA3LZUhMSAPV_u0qwiAQ-O5X8.woff2);
+}
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: font me;
+}
+
+.hed {
+    width: 100%;
+    height: 150px;
+}
+
+.logo {
+    width: 25%;
+    height: 65%;
+    padding-left: 5%;
+}
+
+.logo2 {
+    width: 20%;
+    height: 65%;
+    float: right;
+}
+
+.img5 {
+    margin-top: 15%;
+    margin-left: 50%;
+    border-radius: 50px;
+    width: 10%;
+    height: 15%;
+    float: left;
+    background-image: url(img/twitter-black-removebg-preview.png);
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.img5:hover {
+    background-image: url(img/twitter_PNG29.png);
+    background-size: cover;
+    background-position: center center;
+    width: 10%;
+    height: 17%;
+}
+
+.img6 {
+    margin-top: 15%;
+    margin-left: 5%;
+    border-radius: 50px;
+    width: 8%;
+    height: 15%;
+    float: left;
+    background-image: url(img/1111-removebg-preview.png);
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.img6:hover {
+    background-image: url(img/download.png);
+    background-size: cover;
+    background-position: center center;
+    width: 12%;
+    height: 17%;
+}
+
+
+.menu {
+    float: left;
+    height: 35%;
+    width: 100%;
+    line-height: 30px;
+    background-color:#333333;
+
+}
+
+ul,
+li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 3px 20px;
+    margin-left: 20px;
+    border-left: 1px solid rgb(34, 30, 30);
+}
+
+.menu ul li a {
+    color: antiquewhite;
+}
+
+.menu ul li:hover a {
+    color: white;
+}
+
+.zerbin {
+    border-right: 1px solid rgb(34, 30, 30);
+    float: right;
+}
+
+.me {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.img1 {
+    background-image: url(img/team-banner2.jpg);
+    width: 100%;
+    height: 100%;
+    flex: content;
+}
+
+.metn {
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+}
+
+.dokme {
+    border-radius: 50%;
+    width: 35%;
+    height: 50px;
+    border: 3px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    float: left;
+
+}
+
+.dokme a {
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    position: relative;
+    top: 30%;
+    left: 5%;
+    transform: translate(-40%, -10%);
+}
+
+.dokme1 {
+    border-radius: 50%;
+    width: 35%;
+    height: 50px;
+    border: 3px solid white;
+    background-color: #efbb20;
+    float: left;
+    margin-left: 20px;
+}
+
+.dokme1 a {
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    position: relative;
+    top: 30%;
+    left: 5%;
+    transform: translate(-40%, -10%);
+}
+
+.zerd {
+    width: 100%;
+    height: 150px;
+    background-color: #efbb20;
+    color: rgb(255, 255, 255);
+    position: relative;
+
+}
+
+.zerd1 {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/house-wire-model-fade-white-1500x1085.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.zerd h1 {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    display: inline-block;
+
+}
+
+.dokme2 {
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 12%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    margin-left: 10%;
+}
+
+.dokme2 a {
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    position: relative;
+    top: 30%;
+    left: 5%;
+    transform: translate(-40%, -10%);
+}
+
+.nev {
+    position: absolute;
+    top: 150%;
+    left: 60%;
+    transform: translate(-115%, -60%);
+}
+
+.nev h2 {
+    color:#efbb20;
+}
+
+.boxa {
+    width: 100%;
+    height: 150px;
+    margin-top: 25%;
+}
+
+.box1 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-top: 0%;
+    margin-left: 8%;
+    margin-bottom: 3%;
+}
+
+.div1 {
+    background: linear-gradient(rgba(245, 239, 239, 0), rgba(250, 244, 244, 0)), url(img/scale-ruler-on-blueprints-845x321.jpg) center center;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    float: left;
+    transition-duration: 2s;
+}
+
+.div1:hover {
+    background: linear-gradient(rgba(245, 239, 239, 0.534), rgba(250, 244, 244, 0.623)), url(img/scale-ruler-on-blueprints-845x321.jpg) center center;
+    background-size: cover;
+    background-position: center center;
+}
+
+.box2 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-top: 0%;
+    margin-left: 4%;
+    margin-bottom: 3%;
+}
+
+.div2 {
+    background: linear-gradient(rgba(245, 239, 239, 0), rgba(250, 244, 244, 0)), url(img/construction-site-machines-845x321.jpg) center center;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    float: left;
+    transition-duration: 2s;
+}
+
+.div2:hover {
+    background: linear-gradient(rgba(245, 239, 239, 0.534), rgba(250, 244, 244, 0.623)), url(img/construction-site-machines-845x321.jpg) center center;
+    background-size: cover;
+    background-position: center center;
+}
+
+.box3 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-top: 0%;
+    margin-left: 4%;
+    margin-bottom: 3%;
+}
+
+.div3 {
+    background: linear-gradient(rgba(245, 239, 239, 0), rgba(250, 244, 244, 0)), url(img/cropped-hand-of-a-carpenter-845x321.jpg) center center;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    float: left;
+    transition-duration: 2s;
+}
+
+.div3:hover {
+    background: linear-gradient(rgba(245, 239, 239, 0.534), rgba(250, 244, 244, 0.623)), url(img/cropped-hand-of-a-carpenter-845x321.jpg) center center;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.boxb {
+    width: 100%;
+    height: 150px;
+    position: relative;
+
+}
+
+.box4 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-left: 8%;
+    margin-bottom: 5%;
+}
+
+.div4 {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.box5 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-left: 4%;
+    margin-bottom: 5%;
+}
+
+.div5 {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.box6 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-left: 4%;
+    margin-bottom: 5%;
+}
+
+.div6 {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.boxb h2 {
+    color: #efbb20;
+}
+
+.boxb p {
+    color: grey;
+}
+
+.boxc {
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+
+.box7 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-top: 0%;
+    margin-left: 8%;
+    margin-bottom: 3%;
+}
+
+.div7 {
+    background: linear-gradient(rgba(245, 239, 239, 0), rgba(250, 244, 244, 0)), url(img/architect-handling-keys-to-a-couple-845x321.jpg) center center;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    float: left;
+    transition-duration: 2s;
+}
+
+.div7:hover {
+    background: linear-gradient(rgba(245, 239, 239, 0.534), rgba(250, 244, 244, 0.623)), url(img/architect-handling-keys-to-a-couple-845x321.jpg) center center;
+    background-size: cover;
+    background-position: center center;
+}
+
+.box8 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-top: 0%;
+    margin-left: 4%;
+    margin-bottom: 3%;
+}
+
+.div8 {
+    background: linear-gradient(rgba(245, 239, 239, 0), rgba(250, 244, 244, 0)), url(img/urban-development-845x321.jpg) center center;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    float: left;
+    transition-duration: 2s;
+}
+
+.div8:hover {
+    background: linear-gradient(rgba(245, 239, 239, 0.534), rgba(250, 244, 244, 0.623)), url(img/urban-development-845x321.jpg) center center;
+    background-size: cover;
+    background-position: center center;
+}
+
+.box9 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-top: 0%;
+    margin-left: 4%;
+    margin-bottom: 3%;
+}
+
+.div9 {
+    background: linear-gradient(rgba(245, 239, 239, 0), rgba(250, 244, 244, 0)), url(img/modern-home-845x321.jpg) center center;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    float: left;
+    transition-duration: 2s;
+}
+
+.div9:hover {
+    background: linear-gradient(rgba(245, 239, 239, 0.534), rgba(250, 244, 244, 0.623)), url(img/modern-home-845x321.jpg) center center;
+    background-size: cover;
+    background-position: center center;
+}
+
+.boxo {
+    width: 100%;
+    position: relative;
+
+}
+
+.box10 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-left: 8%;
+    margin-bottom: 5%;
+}
+
+.div10 {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.box11 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-left: 4%;
+    margin-bottom: 5%;
+}
+
+.div11 {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.box12 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-left: 4%;
+    margin-bottom: 5%;
+}
+
+.div12 {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.boxo h2 {
+    color: #efbb20;
+}
+
+.boxo p {
+    color: grey;
+}
+
+.ma {
+    background-color: rgb(26, 29, 30);
+    width: 100%;
+    height: 600px;
+    margin-top: 35%;
+    margin-bottom: 5%;
+    color: white;
+}
+
+.grin {
+    background-image: url(img/house-wire-model-fade-white-1500x1085.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
+
+.boxh {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    bottom: 85%;
+    text-align: justify;
+}
+
+.box13 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-left: 8%;
+    margin-bottom: 5%;
+}
+
+.div13 {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.box14 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-left: 4%;
+    margin-bottom: 5%;
+}
+
+.div14 {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.box15 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-left: 4%;
+    margin-bottom: 5%;
+}
+
+.div15 {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.boxj {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    bottom: 95%;
+    text-align: justify;
+}
+
+.box16 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-left: 8%;
+    margin-bottom: 5%;
+}
+
+.div16 {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.box17 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-left: 4%;
+    margin-bottom: 5%;
+}
+
+.div17 {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.box18 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-left: 4%;
+    margin-bottom: 5%;
+}
+
+.div18 {
+    width: 100%;
+    height: 100%;
+    float: left;
+
+}
+
+.img {
+    margin: 5%;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.nev1 {
+    width: 30%;
+    position: relative;
+    bottom: 90%;
+    left: 42%;
+}
+
+.nev1 h2 {
+    color: #efbb20;
+}
+
+.nev2 {
+    width: 30%;
+    margin-bottom: 5%;
+    position: absolute;
+    left: 42%;
+}
+
+.nev2 h2 {
+    color: #efbb20;
+}
+
+.boxk {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+
+
+}
+
+.box19 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    position: relative;
+}
+.div19 {
+    background: linear-gradient(rgba(245, 239, 239, 0.534), rgba(250, 244, 244, 0.623)), url(img/house-interior-1500x863.jpg) center center;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    transition-duration: 1s;
+    transform: scale(1);
+}
+.h1{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 75%;
+    left: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 255, 0);
+    color: rgba(240, 248, 255, 0);
+
+}
+.h1 a{
+    color: rgba(0, 0, 0, 0);
+}
+.h1 h4{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.div19:hover .h1 a{
+    color: rgb(0, 0, 0);
+}
+.div19:hover .h1{
+    background-color: rgb(245, 241, 241);
+    color: rgb(3, 3, 3);
+    z-index: 1;
+    transform: scale(none);
+}
+
+.div19:hover {
+    background: linear-gradient(rgba(245, 239, 239, 0), rgba(250, 244, 244, 0)), url(img/house-interior-1500x863.jpg) center center;
+    background-size: cover;
+    background-position: center center;
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.box20 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-top: 10%;
+    margin-left: 1%;
+    margin-bottom: 3%;
+}
+
+.div20 {
+    background: linear-gradient(rgba(245, 239, 239, 0.534), rgba(250, 244, 244, 0.623)), url(img/architect-handling-keys-to-a-couple-845x321.jpg) center center;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    float: left;
+    transition-duration: 2s;
+    transform: scale(1);
+}
+.div20 .h1{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 75%;
+    left: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 255, 0);
+    color: rgba(240, 248, 255, 0);
+
+}
+.div20 .h1 a{
+    color: rgba(0, 0, 0, 0);
+}
+.div20 .h1 h4{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.div20:hover .h1 a{
+    color: rgb(0, 0, 0);
+}
+.div20:hover .h1{
+    background-color: rgb(245, 241, 241);
+    color: rgb(3, 3, 3);
+    z-index: 1;
+    transform: scale(none);
+}
+
+.div20:hover {
+    background: linear-gradient(rgba(245, 239, 239, 0), rgba(250, 244, 244, 0)), url(img/architect-handling-keys-to-a-couple-845x321.jpg) center center;
+    background-size: cover;
+    background-position: center center;
+    transform: scale(1.1);
+}
+
+.box21 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-top: 10%;
+    margin-left: 1%;
+    margin-bottom: 3%;
+}
+
+.div21 {
+    background: linear-gradient(rgba(245, 239, 239, 0.534), rgba(250, 244, 244, 0.623)), url(img/urban-development-845x684.jpg) center center;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    float: left;
+    transition-duration: 2s;
+    transform: scale(1);
+}
+.div21 .h1{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 75%;
+    left: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 255, 0);
+    color: rgba(240, 248, 255, 0);
+
+}
+.div21 .h1 a{
+    color: rgba(0, 0, 0, 0);
+}
+.div21 .h1 h4{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.div21:hover .h1 a{
+    color: rgb(0, 0, 0);
+}
+.div21:hover .h1{
+    background-color: rgb(245, 241, 241);
+    color: rgb(3, 3, 3);
+    z-index: 1;
+    transform: scale(none);
+}
+
+.div21:hover {
+    background: linear-gradient(rgba(245, 239, 239, 0), rgba(250, 244, 244, 0)), url(img/urban-development-845x684.jpg) center center;
+    background-size: cover;
+    background-position: center center;
+    transform: scale(1.1);
+}
+
+.boxl {
+    width: 100%;
+    height: 300px;
+}
+
+.box22 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+
+.div22 {
+    background: linear-gradient(rgba(245, 239, 239, 0.534), rgba(250, 244, 244, 0.623)), url(img/house-mansion-845x684.jpg) center center;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    float: left;
+    transition-duration: 2s;
+    transform: scale(1);
+}
+.div22 .h1{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 75%;
+    left: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 255, 0);
+    color: rgba(240, 248, 255, 0);
+
+}
+.div22 .h1 a{
+    color: rgba(0, 0, 0, 0);
+}
+.div22 .h1 h4{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.div22:hover .h1 a{
+    color: rgb(0, 0, 0);
+}
+.div22:hover .h1{
+    background-color: rgb(245, 241, 241);
+    color: rgb(3, 3, 3);
+    z-index: 1;
+    transform: scale(none);
+}
+.div22:hover {
+    background: linear-gradient(rgba(245, 239, 239, 0), rgba(250, 244, 244, 0)), url(img/house-mansion-845x684.jpg) center center;
+    background-size: cover;
+    background-position: center center;
+    transform: scale(1.1);
+}
+
+.box23 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-bottom: 3%;
+}
+
+.div23 {
+    background: linear-gradient(rgba(245, 239, 239, 0.534), rgba(250, 244, 244, 0.623)), url(img/superb-backyard-845x684.jpg) center center;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    float: left;
+    transition-duration: 2s;
+    transform: scale(1);
+}
+.div23 .h1{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 75%;
+    left: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 255, 0);
+    color: rgba(240, 248, 255, 0);
+
+}
+.div23 .h1 a{
+    color: rgba(0, 0, 0, 0);
+}
+.div23 .h1 h4{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.div23:hover .h1 a{
+    color: rgb(0, 0, 0);
+}
+.div23:hover .h1{
+    background-color: rgb(245, 241, 241);
+    color: rgb(3, 3, 3);
+    z-index: 1;
+    transform: scale(none);
+}
+
+.div23:hover {
+    background: linear-gradient(rgba(245, 239, 239, 0), rgba(250, 244, 244, 0)), url(img/superb-backyard-845x684.jpg) center center;
+    background-size: cover;
+    background-position: center center;
+    transform: scale(1.1);
+}
+
+.box24 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-bottom: 3%;
+}
+
+.div24 {
+    background: linear-gradient(rgba(245, 239, 239, 0.534), rgba(250, 244, 244, 0.623)), url(img/modern-home-845x684.jpg) center center;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    float: left;
+    transition-duration: 2s;
+    transform: scale(1);
+}
+.div24 .h1{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 75%;
+    left: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 255, 0);
+    color: rgba(240, 248, 255, 0);
+
+}
+.div24 .h1 a{
+    color: rgba(0, 0, 0, 0);
+}
+.div24 .h1 h4{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.div24:hover .h1 a{
+    color: rgb(0, 0, 0);
+}
+.div24:hover .h1{
+    background-color: rgb(245, 241, 241);
+    color: rgb(3, 3, 3);
+    z-index: 1;
+    transform: scale(none);
+}
+
+.div24:hover {
+    background: linear-gradient(rgba(245, 239, 239, 0), rgba(250, 244, 244, 0)), url(img/modern-home-845x684.jpg) center center;
+    background-size: cover;
+    background-position: center center;
+    transform: scale(1.1);
+}
+
+samp {
+    color: #efbb20;
+}
+
+.nev3 {
+    margin-left: 33%;
+    margin-top: 40%;
+    margin-bottom: 5%;
+
+}
+
+.nev3 h2 {
+    color: #efbb20;
+}
+
+.boxy {
+    width: 100%;
+    height: 150px;
+    position: relative;
+
+}
+
+
+.box30 {
+    width: 22%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-top: 2%;
+    margin-left: 6%;
+    border: 1px solid rgb(177, 171, 171);
+}
+
+.div30 {
+    background: url(img/envato.png) center center;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.box31 {
+    width: 22%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-top: 2%;
+    border: 1px solid rgb(177, 171, 171);
+}
+
+.div31 {
+    background: url(img/microlancer.png) center center;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    float: left;
+
+}
+
+.box32 {
+    width: 22%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-top: 2%;
+    border: 1px solid rgb(177, 171, 171);
+}
+
+.div32 {
+    background: url(img/themeforest.png) center center;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    float: left;
+
+}
+
+.box33 {
+    width: 22%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-top: 2%;
+    border: 1px solid rgb(177, 171, 171);
+}
+
+.div33 {
+    background: url(img/wpml.png) center center;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    float: left;
+
+}
+
+.boxt {
+    width: 100%;
+    height: 150px;
+    position: relative;
+
+}
+
+
+.box34 {
+    width: 22%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-left: 6%;
+    border: 1px solid rgb(177, 171, 171);
+}
+
+.div34 {
+    background: url(img/wordpress.png) center center;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.box35 {
+    width: 22%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 3%;
+    border: 1px solid rgb(177, 171, 171);
+}
+
+.div35 {
+    background: url(img/bbpress.png) center center;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    float: left;
+
+}
+
+.box36 {
+    width: 22%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 3%;
+    border: 1px solid rgb(177, 171, 171);
+}
+
+.div36 {
+    background: url(img/dribbble.png) center center;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    float: left;
+
+}
+
+.box37 {
+    width: 22%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 3%;
+    border: 1px solid rgb(177, 171, 171);
+}
+
+.div37 {
+    background: url(img/kriesi.png) center center;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    float: left;
+
+}
+
+.tozi {
+    width: 100%;
+    height: 355px;
+    background-color: #2c353d;
+    margin-top: 7%;
+}
+
+.boxi {
+    width: 100%;
+    height: 80%;
+    padding-top: 2%;
+    color: rgb(243, 234, 217);
+}
+
+
+.box40 {
+    width: 20%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-left: 6%;
+}
+
+.div40 {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.div40 a {
+    text-decoration: none;
+    color: rgb(243, 234, 217);
+}
+
+.img49 {
+    margin: 5%;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.div48 {
+    font-size: 70%;
+    margin-top: 20%;
+    margin-bottom: 5%;
+    text-align: justify;
+    float: left;
+}
+
+.div48 p {
+    float: left;
+    margin-top: 5%;
+}
+
+.div49 {
+    font-size: 70%;
+    margin-top: 20%;
+    margin-bottom: 5%;
+    text-align: justify;
+    float: left;
+}
+
+.div49 p {
+    float: left;
+    margin-top: 5%;
+}
+
+
+.box41 {
+    width: 20%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 3%;
+    margin-left: 2%;
+}
+
+.div41 {
+    width: 100%;
+    height: 100%;
+    float: left;
+
+}
+
+.box42 {
+    width: 20%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 3%;
+    margin-left: 2%;
+}
+
+.div42 {
+    width: 100%;
+    height: 100%;
+    float: left;
+
+}
+
+.box43 {
+    width: 20%;
+    height: 110%;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 3%;
+    margin-left: 2%;
+}
+
+.div43 {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.div43 a {
+    text-decoration: none;
+    color: rgb(243, 234, 217);
+}
+
+.img50 {
+    margin: 5%;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.div50 {
+    overflow: hidden;
+    margin-left: 8%;
+    text-align: justify;
+}
+
+.div51 {
+    overflow: hidden;
+    margin-left: 8%;
+    margin-bottom: 5%;
+    text-align: justify;
+}
+
+.div52 {
+    overflow: hidden;
+    margin-left: 8%;
+    margin-bottom: 5%;
+    text-align: justify;
+}
+
+
+.footer {
+    background-color: #5b646b;
+    float: left;
+    width: 100%;
+    padding: 0 240px;
+    height: 60px;
+}
+
+.footer1 {
+    float: left;
+    text-transform: uppercase;
+    color: white;
+    font-size: 10px;
+    height: 50%;
+    position: relative;
+    top: 50%;
+    left: -20%;
+}
+
+.menu10 {
+    width: 30%;
+    position: relative;
+    left: 90%;
+    top: -9%;
+}
+
+.menu10 ul,
+li {
+    list-style: none;
+    margin-left: 5%;
+}
+
+.menu10 a {
+    text-decoration: none;
+    font-size: 10px;
+    float: right;
+}
+
+.menu10 ul li {
+    display: inline-block;
+    margin-left: 4%;
+}
+
+.menu10 a {
+    color: white;
+}
