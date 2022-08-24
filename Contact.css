@@ -2,6 +2,9 @@
     font-family: font me;
     src: url(font/sJoA3LZUhMSAPV_u0qwiAQ-O5X8.woff2);
 }
+h4{
+    font-family: 'Courier New';
+}
 * {
     padding: 0%;
     margin: 0%;
@@ -165,12 +168,12 @@ a {
 
 .nev {
     position: absolute;
-    top: 105%;
+    top: 100%;
     left: 25%;
     transform: translate(-115%, -60%);
 }
 
-.nev h2 {
+.nev h4 {
     color: #efbb20;
 }
 
@@ -181,7 +184,7 @@ a {
     transform: translate(-115%, -60%);
 }
 
-.nev1 h2 {
+.nev1 h4 {
     color: #efbb20;
 }
 
@@ -327,20 +330,20 @@ a {
 
 .div50 {
     overflow: hidden;
-    margin-left: 8%;
+    margin-left: -3%;
     text-align: justify;
 }
 
 .div51 {
     overflow: hidden;
-    margin-left: 8%;
+    margin-left: -3%;
     margin-bottom: 5%;
     text-align: justify;
 }
 
 .div52 {
     overflow: hidden;
-    margin-left: 8%;
+    margin-left: -3%;
     margin-bottom: 5%;
     text-align: justify;
 }

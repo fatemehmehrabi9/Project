@@ -2,6 +2,12 @@
     font-family: font me;
     src: url(font/sJoA3LZUhMSAPV_u0qwiAQ-O5X8.woff2);
 }
+h4{
+    font-family: 'Courier New';
+}
+h4 center{
+    font-family: 'Courier New';
+}
 * {
     padding: 0%;
     margin: 0%;
@@ -130,6 +136,7 @@ a {
 
 .ost1 h4 {
     color: rgb(170, 167, 167);
+    font-family: 'Courier New';
 }
 
 .ost1 a {
@@ -231,6 +238,7 @@ a {
 
 .ost3 h4 {
     color: rgb(170, 167, 167);
+    font-family: 'Courier New';
 }
 
 .ost3 a {
@@ -323,6 +331,7 @@ li {
 
 .ost5 h4 {
     color: rgb(170, 167, 167);
+    font-family: 'Courier New';
 }
 
 .ost5 a {
@@ -578,7 +587,7 @@ li {
 
 .div53 {
     overflow: hidden;
-    margin-left: 4%;
+    margin-left: -3%;
     margin-bottom: 5%;
     text-align: justify;
 }
@@ -715,20 +724,20 @@ li {
 
 .div50 {
     overflow: hidden;
-    margin-left: 8%;
+    margin-left: -3%;
     text-align: justify;
 }
 
 .div51 {
     overflow: hidden;
-    margin-left: 8%;
+    margin-left: -3%;
     margin-bottom: 5%;
     text-align: justify;
 }
 
 .div52 {
     overflow: hidden;
-    margin-left: 8%;
+    margin-left: -3%;
     margin-bottom: 5%;
     text-align: justify;
 }

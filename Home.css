@@ -2,6 +2,13 @@
     font-family: font me;
     src: url(font/sJoA3LZUhMSAPV_u0qwiAQ-O5X8.woff2);
 }
+h4{
+    font-family: 'Courier New';
+}
+h4 center{
+    font-family: 'Courier New';
+}
+
 * {
     padding: 0%;
     margin: 0%;
@@ -186,7 +193,7 @@ a {
 .zerd h1 {
     position: absolute;
     top: 25%;
-    left: 10%;
+    left: 5%;
     display: inline-block;
 
 }
@@ -219,7 +226,7 @@ a {
     transform: translate(-115%, -60%);
 }
 
-.nev h2 {
+.nev h4 {
     color:#efbb20;
 }
 
@@ -360,7 +367,7 @@ a {
     float: left;
 }
 
-.boxb h2 {
+.boxb h4 {
     color: #efbb20;
 }
 
@@ -503,7 +510,7 @@ a {
     float: left;
 }
 
-.boxo h2 {
+.boxo h4 {
     color: #efbb20;
 }
 
@@ -650,7 +657,7 @@ a {
     left: 42%;
 }
 
-.nev1 h2 {
+.nev1 h4 {
     color: #efbb20;
 }
 
@@ -661,7 +668,7 @@ a {
     left: 42%;
 }
 
-.nev2 h2 {
+.nev2 h4 {
     color: #efbb20;
 }
 
@@ -1026,7 +1033,7 @@ samp {
 
 }
 
-.nev3 h2 {
+.nev3 h4 {
     color: #efbb20;
 }
 
@@ -1326,20 +1333,20 @@ samp {
 
 .div50 {
     overflow: hidden;
-    margin-left: 8%;
+    margin-left: -3%;
     text-align: justify;
 }
 
 .div51 {
     overflow: hidden;
-    margin-left: 8%;
+    margin-left: -3%;
     margin-bottom: 5%;
     text-align: justify;
 }
 
 .div52 {
     overflow: hidden;
-    margin-left: 8%;
+    margin-left: -3%;
     margin-bottom: 5%;
     text-align: justify;
 }
